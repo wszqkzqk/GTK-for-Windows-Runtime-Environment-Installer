@@ -6,7 +6,7 @@
 set -e
 set -x
 INSTALL_SRC_DIR=$(dirname "$0")
-INSTALL_SRC_MSYS2="/mingw64/"
+INSTALL_SRC_MSYS2="/ucrt64/"
 _DATE=$(date +'%Y-%m-%d')
 _VERSION="3.20.2"
 _ARCH="win64"
